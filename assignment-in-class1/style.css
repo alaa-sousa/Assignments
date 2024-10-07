@@ -1,0 +1,33 @@
+body{
+position:sticky
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: #f0f0f0;
+    padding:10px
+}
+
+main{
+    width:60%;
+    margin:20px auto;
+    background-color: #e0e0e0;
+    padding: 15px;
+}
+
+aside{
+    width: 30%;
+    margin:20px auto;
+    background-color: #d0d0d0;
+    padding:15px;
+    align-items:flex-end;
+    position:relative;
+    left:0;
+}
+
+footer{
+    background-color: #c0c0c0;
+    padding: 10px;
+    position:fixed;
+}

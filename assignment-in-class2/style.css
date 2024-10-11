@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card-image {
+    background-color: #fff;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .pricing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .current-price {
+    font-size: 24px;
+    color: #28a745;
+    margin-right: 10px;
+  }
+  
+  .old-price {
+    font-size: 16px;
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  
